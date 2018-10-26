@@ -11,8 +11,8 @@ int main()
         x=x/10;
     }
     if(sum==b){
-        printf("This is Armstrong number\n");
+        printf("%d This is Armstrong number\n",a);
     }else{
-        printf("This is not Armstrong number\n");
+        printf("%d This is not Armstrong number\n",a);
     }
 }
