@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    int num;
+   printf("Enter any number to check even or odd: ");
+    scanf("%d", &num);
+    printf("The number is %s", (num%2==0 ? "EVEN" : "ODD"));
+}
